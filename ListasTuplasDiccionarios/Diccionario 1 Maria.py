@@ -4,7 +4,7 @@ comida = {"pescado": "mucho", "carne": "le gusta", "purina": "aceptable", "fruta
 
 print("")
 
-print( colorgato)
+
 
 print( colorgato)
 print(tamaños)
