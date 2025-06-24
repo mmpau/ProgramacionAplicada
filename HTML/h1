@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <em>Este es mi <strong>primer parrafo</strong></em>
+    </p> 
+    
+    <br>
+
+    <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="Logo de Firefox">
+    
+    <br> 
+
+    <form action="/my-handling-from-page" method="post">
+        <ul>
+            <li>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name">
+            </li>
+            <li>
+                <label for="mail">Correo Electrónico</label>
+                <input type="text" id="mail" name="user_mail">
+            </li>
+            <li>
+                <label for="msg">Mensaje</label>
+                <textarea type="text" id="msg" name="user_msg"></textarea>
+            </li>
+            <li class="button">
+                <input type="submit" value="Enviar Mensaje Favorito">
+            </li>
+        </ul>
+    </form>
+    
+    <br>
+
+    <a href="https://www.mozilla.org">Sitio Web Favorito</a>
+    
+    <br>
+</body>
+</html>
